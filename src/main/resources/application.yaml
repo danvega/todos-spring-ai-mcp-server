@@ -16,3 +16,7 @@ spring:
 
 todos:
   file: todos.json
+
+logging:
+  level:
+    io.modelcontextprotocol.spec.McpSchema: DEBUG
