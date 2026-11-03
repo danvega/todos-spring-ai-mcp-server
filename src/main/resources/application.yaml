@@ -1,0 +1,18 @@
+server:
+  port: 8093
+
+gg:
+  jte:
+    development-mode: true
+
+spring:
+  application:
+    name: todos
+  ai:
+    mcp:
+      server:
+        name: todo-inbox
+        protocol: streamable
+
+todos:
+  file: todos.json
