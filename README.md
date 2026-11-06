@@ -11,11 +11,6 @@ Java 27, Spring Boot 4.0.9, Spring AI 2.0.1, jte 3.2.5.
 ## What you need
 
 - JDK 27
-- An OpenAI API key. The inbox never calls OpenAI, but the OpenAI starter is in the pom and will not start without a key.
-
-```bash
-export OPENAI_API_KEY=your-key-here
-```
 
 ## Run it
 
