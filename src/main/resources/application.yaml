@@ -8,15 +8,6 @@ gg:
 spring:
   application:
     name: todos
-  ai:
-    mcp:
-      server:
-        name: todo-inbox
-        protocol: streamable
 
 todos:
   file: todos.json
-
-logging:
-  level:
-    io.modelcontextprotocol.spec.McpSchema: DEBUG
